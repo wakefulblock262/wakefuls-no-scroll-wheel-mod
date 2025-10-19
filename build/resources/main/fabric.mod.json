@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "wakefuls-no-scroll-wheel-mod",
+  "version": "1.0",
+
+  "name": "no-scroll-wheel-mod",
+  "description": "Disables scroll wheel input. Useful for speedrunners who accidentally change hotbar slots while scrolling.",
+  "authors": ["wakefulblock262"],
+  "contact": {
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": " assets/wakefuls-no-scroll-wheel-mod/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": ["net.wakeful.noScroll.wakefulsNoScrollWheelMod.client.WakefulsNoScrollWheelModDataGenerator"],
+    "client": ["net.wakeful.noScroll.wakefulsNoScrollWheelMod.client.WakefulsNoScrollWheelModClient"],
+    "main": ["net.wakeful.noScroll.wakefulsNoScrollWheelMod.WakefulsNoScrollWheelMod"]
+  },
+
+  "mixins": [
+    "wakefuls-no-scroll-wheel-mod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "1.16.1"
+  },
+
+  "custom": {
+    "speedrunapi": {
+      "config": "net.wakeful.noScroll.wakefulsNoScrollWheelMod.WakefulsNoScrollWheelModConfig"
+    }
+  }
+}

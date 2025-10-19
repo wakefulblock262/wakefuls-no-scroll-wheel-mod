@@ -1,0 +1,13 @@
+﻿{
+  "speedrunapi.config.wakefuls-no-scroll-wheel-mod.disableScrolling": "Disable Scrolling",
+  "speedrunapi.config.wakefuls-no-scroll-wheel-mod.disable_scrolling": "Disable Scrolling",
+  "speedrunapi.config.wakefuls_no_scroll_wheel_mod.disableScrolling": "Disable Scrolling",
+  "speedrunapi.config.wakefuls_no_scroll_wheel_mod.disable_scrolling": "Disable Scrolling",
+  "speedrunapi.config.wakefuls-no-scroll-wheel-mod.disableScrolling.name": "Disable Scrolling",
+  "speedrunapi.config.wakefuls-no-scroll-wheel-mod.disable_scrolling.name": "Disable Scrolling",
+  "speedrunapi.config.wakefuls_no_scroll_wheel_mod.disableScrolling.name": "Disable Scrolling",
+  "speedrunapi.config.wakefuls_no_scroll_wheel_mod.disable_scrolling.name": "Disable Scrolling",
+
+  "speedrunapi.config.wakefuls-no-scroll-wheel-mod.DisableScrolling": "Disable Scrolling",
+  "speedrunapi.config.wakefuls-no-scroll-wheel-mod.DisableScrolling.name": "Disable Scrolling"
+}
